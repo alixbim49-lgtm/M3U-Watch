@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "schedule": { "start": "2026-11-19T08:00:00", "every": 1, "unit": "days" },
+    "max_items": 10,
+    "send_photos": true,
+    "photo_delay": 3,
+    "user_agent": "VLC/3.0.20 LibVLC/3.0.20",
+    "timeout": 120,
+    "max_series_checks": 30
+  },
+  "servers": [
+    {
+      "id": "serveur1",
+      "name": "Mon serveur IPTV",
+      "url": "http://exemple.com/get.php?username=XXX&password=YYY&type=m3u_plus&output=ts",
+      "telegram_token": "123456:ABC-DEF...",
+      "telegram_chat_id": "@nom_de_ma_chaine",
+      "enabled": true
+    }
+  ]
+}
